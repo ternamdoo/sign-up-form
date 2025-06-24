@@ -44,7 +44,6 @@ body {
 }
 
 .container {
-  /* margin: 0 1rem; */
   display: flex;
   height: 100vh;
   width: 100%;
@@ -56,9 +55,44 @@ body {
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   background-color: #008b8b;
+  position: relative;
 }
 
+.odin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #00000066;
+  width: 100%;
+  position: absolute;
+  padding: .5rem;
+  top: 15%;
 
+  & img {
+    width: 80px;
+    height: auto;
+  }
+
+  & .logo-text {
+    color: #fcfdfc;
+    font-family: Zina-Regular;
+    font-size: 5rem;
+  }
+}
+
+.photo-credit {
+  position: absolute;
+  bottom: 1rem;
+  color: #ffffff;
+  text-wrap-mode: nowrap;
+  width: 100%;
+  text-align: center;
+
+  & a {
+    color: #ffffff;
+  }
+}
 
 .container .right {
   font-family: Sentient-Regular, 'Times New Roman', Times, serif;
