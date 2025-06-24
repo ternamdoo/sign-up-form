@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Zina-Regular';
-  src: url('./fonts/Zina-Regular.woff2') format('woff2'),
-    url('./fonts/Zina-Regular.woff') format('woff'),
-    url('./fonts/Zina-Regular.ttf') format('truetype');
+  src: url('./fonts/Zina/Zina-Regular.woff2') format('woff2'),
+    url('./fonts/Zina/Zina-Regular.woff') format('woff'),
+    url('./fonts/Zina/Zina-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -11,8 +11,8 @@
 @font-face {
   font-family: 'Sentient-Regular';
   src: url('./fonts/Sentient/Sentient-Regular.woff2') format('woff2'),
-    url('./fonts/Sentient-Regular.woff') format('woff'),
-    url('./fonts/Sentient-Regular.ttf') format('truetype');
+    url('./fonts/Sentient/Sentient-Regular.woff') format('woff'),
+    url('./fonts/Sentient/Sentient-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -20,9 +20,9 @@
 
 @font-face {
   font-family: 'Tabular-Regular';
-  src: url('./fonts/Tabular-Regular.woff2') format('woff2'),
-    url('./fonts/Tabular-Regular.woff') format('woff'),
-    url('./fonts/Tabular-Regular.ttf') format('truetype');
+  src: url('./fonts/Tabular/Tabular-Regular.woff2') format('woff2'),
+    url('./fonts/Tabular/Tabular-Regular.woff') format('woff'),
+    url('./fonts/Tabular/Tabular-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -52,10 +52,16 @@ body {
 
 .container .left {
   width: 40%;
+  background-image: url("./images/kristijan-arsov-tcw3nwoAgvs-unsplash.jpg");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
   background-color: #008b8b;
 }
+
+
+
 .container .right {
-  font-family: Tabular-Regular,Sentient-Regular, 'Times New Roman', Times, serif;
+  font-family: Sentient-Regular, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
   background-color: #f9fafb;
