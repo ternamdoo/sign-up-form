@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Zina-Regular';
-  src: url('../fonts/Zina-Regular.woff2') format('woff2'),
-    url('../fonts/Zina-Regular.woff') format('woff'),
-    url('../fonts/Zina-Regular.ttf') format('truetype');
+  src: url('./fonts/Zina-Regular.woff2') format('woff2'),
+    url('./fonts/Zina-Regular.woff') format('woff'),
+    url('./fonts/Zina-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -10,9 +10,9 @@
 
 @font-face {
   font-family: 'Sentient-Regular';
-  src: url('../fonts/Sentient-Regular.woff2') format('woff2'),
-    url('../fonts/Sentient-Regular.woff') format('woff'),
-    url('../fonts/Sentient-Regular.ttf') format('truetype');
+  src: url('./fonts/Sentient/Sentient-Regular.woff2') format('woff2'),
+    url('./fonts/Sentient-Regular.woff') format('woff'),
+    url('./fonts/Sentient-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -20,9 +20,9 @@
 
 @font-face {
   font-family: 'Tabular-Regular';
-  src: url('../fonts/Tabular-Regular.woff2') format('woff2'),
-    url('../fonts/Tabular-Regular.woff') format('woff'),
-    url('../fonts/Tabular-Regular.ttf') format('truetype');
+  src: url('./fonts/Tabular-Regular.woff2') format('woff2'),
+    url('./fonts/Tabular-Regular.woff') format('woff'),
+    url('./fonts/Tabular-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -47,20 +47,22 @@
   width: 100%;
 }
 
-/* .container > * {
-  flex: 1;
-} */
+p {
+  margin: 2rem 0;
+}
 
 .container .left {
   width: 40%;
   background-image: url("./images/kristijan-arsov-tcw3nwoAgvs-unsplash.jpg");
   background-color: #008b8b;
 }
-/* .container .right {
+.container .right {
   width: 60%;
   padding: 8rem 2rem;
   & .description {
+    font-family: 'Sentient-Regular', 'Times New Roman', Times, serif;
+    font-size: 2rem;
     height: 33%;
     background-color: #f9fafb;
   }
-} */
+}
