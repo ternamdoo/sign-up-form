@@ -147,6 +147,13 @@ form {
     & input {
       font-family: Tabular-Regular;
       padding: 0.2rem 0.5rem;
+      border: 1px solid #E5E7EB;
+
+      &:focus {
+        border: none;
+        outline: 2px solid #6d88d2;
+        border-radius: 5px;
+      }
     }
 }
 
