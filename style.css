@@ -163,4 +163,9 @@ form {
     letter-spacing: 0.05rem;
     margin: 1rem 0;
   }
+
+  & > div > a {
+    text-decoration: none;
+    color: #663b22;
+  }
 }
