@@ -167,6 +167,10 @@ form {
         cursor: pointer;
         background-color: #9e4711;
       }
+
+    &:active {
+      background-color: #000000;
+    }
   }
 
   & > div > a {
