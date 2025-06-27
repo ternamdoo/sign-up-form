@@ -132,6 +132,17 @@ textarea {
   }
 }
 
+.required-hint {
+  margin-bottom: 1em;
+  font-family: Tabular-Regular;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.asterisk {
+  color: #a1a19a;
+}
+
 form {
   display: flex;
   flex-wrap: wrap;
