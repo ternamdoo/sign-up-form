@@ -106,7 +106,6 @@ textarea {
 
 .container .right {
   font-family: Sentient-Regular;
-  /* font-size: 1.5rem; */
   display: flex;
   flex-direction: column;
   background-color: #f9fafb;
@@ -163,6 +162,18 @@ form {
       &:focus {
         border: none;
         outline: 2px solid #6d88d2;
+        border-radius: 5px;
+      }
+
+      &[type="password"]:invalid {
+        border: none;
+        outline: 2px solid #db8989;
+        border-radius: 5px;
+      }
+
+      &[type="password"]:valid:focus {
+        border: none;
+        outline: 2px solid #89dba2;
         border-radius: 5px;
       }
     }
